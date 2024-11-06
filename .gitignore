@@ -1,33 +1,18 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Archivos de NetBeans
+nbproject/private/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
+# Archivos de compilación
+/build/
 /dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+# Archivos específicos del sistema operativo
+*.DS_Store
+*.log
+*.bak
+*.swp
+*.swo
+
+# Archivos de configuración específicos de la IDE
+*.iml
+.idea/
+*.class
